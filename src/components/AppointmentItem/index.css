@@ -1,0 +1,39 @@
+.list-item {
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  width: 30%;
+  padding: 5px;
+  height: 75px;
+  margin-right: 27px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
+.heading2 {
+  font-size: 13px;
+}
+
+.satrButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.star {
+  width: 20px;
+}
+
+.time {
+  font-size: 11px;
+  color: #b5b7c4;
+  font-weight: 500;
+}
