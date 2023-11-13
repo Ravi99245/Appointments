@@ -22,7 +22,7 @@ const AppoointmentItem = props => {
   return (
     <li className="list-item">
       <div className="top-section">
-        <h1 className="heading2">{title}</h1>
+        <p className="heading2">{title}</p>
         <button
           className="satrButton"
           type="button"

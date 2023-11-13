@@ -93,21 +93,23 @@ class Appointments extends Component {
           <div className="input-container">
             <form className="appointmentForm" onSubmit={this.addAppointment}>
               <h1 className="heading">Add Appointment</h1>
-              <label htmlFor="inputElement" className="label">
+              <label htmlFor="title" className="label">
                 TITLE
               </label>
               <input
                 type="text"
                 className="input"
+                id="title"
                 value={title}
                 onChange={this.changeInput}
                 placeholder="Title"
               />
-              <label htmlFor="inputElement" className="label">
+              <label htmlFor="date" className="label">
                 DATE
               </label>
               <input
                 type="date"
+                id="date"
                 className="input"
                 value={date}
                 onChange={this.changeDate}
